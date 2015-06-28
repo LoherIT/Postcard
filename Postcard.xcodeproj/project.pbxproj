@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71A951F1B3FD5D500BCD562 /* Hai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71A951E1B3FD5D500BCD562 /* Hai.jpg */; };
 		B7CC5D151B3461F400E6CF80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC5D141B3461F400E6CF80 /* AppDelegate.swift */; };
 		B7CC5D171B3461F400E6CF80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC5D161B3461F400E6CF80 /* ViewController.swift */; };
 		B7CC5D1A1B3461F400E6CF80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CC5D181B3461F400E6CF80 /* Main.storyboard */; };
 		B7CC5D1C1B3461F400E6CF80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CC5D1B1B3461F400E6CF80 /* Images.xcassets */; };
 		B7CC5D1F1B3461F400E6CF80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CC5D1D1B3461F400E6CF80 /* LaunchScreen.xib */; };
 		B7CC5D2B1B3461F400E6CF80 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC5D2A1B3461F400E6CF80 /* PostcardTests.swift */; };
+		B7CC5D351B34683A00E6CF80 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B7CC5D341B34683A00E6CF80 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B71A951E1B3FD5D500BCD562 /* Hai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hai.jpg; sourceTree = "<group>"; };
 		B7CC5D0F1B3461F400E6CF80 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CC5D131B3461F400E6CF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7CC5D141B3461F400E6CF80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		B7CC5D241B3461F400E6CF80 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CC5D291B3461F400E6CF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7CC5D2A1B3461F400E6CF80 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		B7CC5D341B34683A00E6CF80 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		B7CC5D121B3461F400E6CF80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B71A951E1B3FD5D500BCD562 /* Hai.jpg */,
+				B7CC5D341B34683A00E6CF80 /* SagradaFamilia.jpeg */,
 				B7CC5D131B3461F400E6CF80 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7CC5D1A1B3461F400E6CF80 /* Main.storyboard in Resources */,
+				B7CC5D351B34683A00E6CF80 /* SagradaFamilia.jpeg in Resources */,
 				B7CC5D1F1B3461F400E6CF80 /* LaunchScreen.xib in Resources */,
 				B7CC5D1C1B3461F400E6CF80 /* Images.xcassets in Resources */,
+				B71A951F1B3FD5D500BCD562 /* Hai.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				B7CC5D301B3461F400E6CF80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7CC5D311B3461F400E6CF80 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				B7CC5D331B3461F400E6CF80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
